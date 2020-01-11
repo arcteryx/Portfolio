@@ -1,21 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: "art'Teryxx_WDD | Creative Thinking :: Focused on Results",
+    author: "Patrick Cook",
+    description: "web design, web developer, web development, web designer, javascript, js8, html, html5, css, css3, adobe CC, sketch, sketchapp, ios, app design, app dev, xcode"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#f9f7fa',
+        theme_color: '#f9f7fa',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/aBa_logo_oRANGJE_icon.png',
       },
     },
     'gatsby-plugin-sass',

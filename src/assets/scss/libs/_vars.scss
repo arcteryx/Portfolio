@@ -29,16 +29,18 @@
 		fg:					#a2a2a2,
 		fg-bold:			#787878,
 		fg-light:			#b2b2b2,
+		fg-bright:			#f15c23,
 		border:				#efefef,
 		border-bg:			#f7f7f7,
+		border-bright:		#f15c23,
 		border2:			#dfdfdf,
 		border2-bg:			#e7e7e7,
 
 		accent1: (
-			bg:				#49bf9d,
-			fg:				mix(#49bf9d, #ffffff, 25%),
+			bg:				#f3805b,
+			fg:				mix(#f3805b, #ffffff, 25%),
 			fg-bold:		#ffffff,
-			fg-light:		mix(#49bf9d, #ffffff, 40%),
+			fg-light:		mix(#f3805b, #ffffff, 40%),
 			border:			rgba(255,255,255,0.25),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(255,255,255,0.5),
@@ -54,5 +56,49 @@
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(255,255,255,0.5),
 			border2-bg:		rgba(255,255,255,0.2)
-		)
+		),
+
+		accent3: (
+			bg:				#fff,
+			fg:				rgba(0,0,0,0.5),
+			fg-bold:		#ffffff,
+			fg-light:		rgba(255,255,255,0.4),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent4: (
+			bg:				#fff,
+			fg:				rgba(0,0,0,0.5),
+			fg-bold:		#ffffff,
+			fg-light:		rgba(255,255,255,0.4),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+		
+		accent5: (
+			bg:				#fff,
+			fg:				rgba(0,0,0,0.5),
+			fg-bold:		#ffffff,
+			fg-light:		rgba(255,255,255,0.4),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent6: (
+			bg:				#fff,
+			fg:				rgba(0,0,0,0.5),
+			fg-bold:		#ffffff,
+			fg-light:		rgba(255,255,255,0.4),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
 	);
